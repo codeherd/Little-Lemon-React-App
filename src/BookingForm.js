@@ -21,7 +21,9 @@ function BookingForm({ availableTimes, setDate, setTime, setGuests, setOccasion,
 
   const validateForm = () => {
     const isDateValid = validateDate(date);
-    if (isDateValid && time && guests >= 1 && occasion) {
+    const isGuestsValid = guests >= 1 && guests <= 10;
+
+    if (isDateValid && time && isGuestsValid && occasion) {
       setFormValid(true);
     } else {
       setFormValid(false);
