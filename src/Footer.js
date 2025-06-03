@@ -24,7 +24,7 @@ function Footer() {
           <ul>
           <p>Phone: +1 (234) 567-890</p>
           <p>Address: 123 Main St, Chicago, IL 12345, United States</p>
-          <p>Email: littlelemon@example.com</p>
+          <p>Email: example@littlelemon.com</p>
           </ul>
         </section>
         <aside>

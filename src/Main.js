@@ -134,7 +134,7 @@ function Homepage() {
 
 function About() {
   return (
-    <h1>About Me section coming soon...</h1>
+    <h1>About section coming soon...</h1>
   )
 }
 
